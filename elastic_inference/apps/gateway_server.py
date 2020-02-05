@@ -86,7 +86,7 @@ def index():
     """
     resp = make_response(render_template("index_prod.html"))
     resp.headers.set('X-Content-Type-Options', 'nosniff')
-    resp.headers.set('X-Frame-Options', 'SAMEORIGIN')
+    # resp.headers.set('X-Frame-Options', 'SAMEORIGIN')
     resp.headers.set(
         'Content-Security-Policy',
         "default-src * 'unsafe-inline' 'unsafe-eval'; \
