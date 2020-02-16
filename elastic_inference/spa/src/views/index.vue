@@ -22,7 +22,7 @@
 <template>
     <div class="layout">
         <div>
-            <h1>Clear Linux Elastic Inference Demo</h1>
+            <h1>Cloud Native Elastic Inference Demo</h1>
         </div>
         <div class="stream-area">
             <StreamView v-for="stream in streams" v-bind:key="stream.name" v-bind:stream="stream" ></StreamView>

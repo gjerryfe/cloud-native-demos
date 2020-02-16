@@ -2,7 +2,7 @@ const routers = [
     {
         path: '/',
         meta: {
-            title: 'Clear Linux Elastic Inference Demo'
+            title: 'Cloud Native Elastic Inference Demo'
         },
         component: (resolve) => require(['./views/index.vue'], resolve)
     }
